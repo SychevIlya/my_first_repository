@@ -1,0 +1,7 @@
+mac= 'AAAA:BBBB:CCCC'
+
+#решение
+
+mac= 'AAAA:BBBB:CCCC'
+mac.replace(":", "|")
+
