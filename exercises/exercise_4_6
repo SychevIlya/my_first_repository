@@ -1,0 +1,13 @@
+
+ospf_route = 'O        10.0.24.0/24 [110/41] via 10.0.13.3, 3d18h, FastEthernet0/0'
+
+#решение (скорее всего неверное, через словарь)
+
+ospf_route_1 ={"Protocol": "OSPF", 
+    "Prefix":     "10.0.24.0/24",
+    "AD/Metrix":  "110/41", 
+    "Next hop":   "10.0.13.3",
+    "Last update" "3d18h", 
+    "Interface":  "FastEthernet0/0"}
+
+
