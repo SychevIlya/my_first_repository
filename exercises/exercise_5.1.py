@@ -33,5 +33,5 @@ london_co = {
 #device_name = input("Введите имя устройства: ")
 #a = device_name
 print('\n' + '-' * 30)  
-print(london_cp("a"))
+print(london_cp["a"])
 
