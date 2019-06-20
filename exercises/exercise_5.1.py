@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 device_name = input("Введите имя устройства: ") 
-a = device_name
+#a = device_name
 
 london_co = { 
         'r1': {
@@ -33,5 +33,5 @@ london_co = {
 #device_name = input("Введите имя устройства: ")
 #a = device_name
 print('\n' + '-' * 30)  
-print(london_cp["a"])
+print(london_co[device_name])
 
